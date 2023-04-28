@@ -1,5 +1,5 @@
 {
-  "name": "Paayes/Paayes-php",
+  "name": "paayes/paayes-php",
   "description": "Paayes PHP Library",
   "keywords": [
     "Paayes",
@@ -11,7 +11,7 @@
   "authors": [
     {
       "name": "Paayes and contributors",
-      "homepage": "https://github.com/Paayes/Paayes-php/contributors"
+      "homepage": "https://github.com/paayes/paayes-php/contributors"
     }
   ],
   "require": {
