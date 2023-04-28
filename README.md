@@ -1,10 +1,10 @@
 # Paayes PHP bindings
 
-[![Build Status](https://travis-ci.org/Paayes/Paayes-php.svg?branch=master)](https://travis-ci.org/Paayes/Paayes-php)
-[![Latest Stable Version](https://poser.pugx.org/Paayes/Paayes-php/v/stable.svg)](https://packagist.org/packages/Paayes/Paayes-php)
-[![Total Downloads](https://poser.pugx.org/Paayes/Paayes-php/downloads.svg)](https://packagist.org/packages/Paayes/Paayes-php)
-[![License](https://poser.pugx.org/Paayes/Paayes-php/license.svg)](https://packagist.org/packages/Paayes/Paayes-php)
-[![Code Coverage](https://coveralls.io/repos/Paayes/Paayes-php/badge.svg?branch=master)](https://coveralls.io/r/Paayes/Paayes-php?branch=master)
+[![Build Status](https://travis-ci.org/paayes/paayes-php.svg?branch=master)](https://travis-ci.org/paayes/paayes-php)
+[![Latest Stable Version](https://poser.pugx.org/paayes/paayes-php/v/stable.svg)](https://packagist.org/packages/paayes/paayes-php)
+[![Total Downloads](https://poser.pugx.org/paayes/paayes-php/downloads.svg)](https://packagist.org/packages/paayes/paayes-php)
+[![License](https://poser.pugx.org/paayes/paayes-php/license.svg)](https://packagist.org/packages/paayes/paayes-php)
+[![Code Coverage](https://coveralls.io/repos/paayes/paayes-php/badge.svg?branch=master)](https://coveralls.io/r/paayes/paayes-php?branch=master)
 
 The Paayes PHP library provides convenient access to the Paayes API from
 applications written in the PHP language. It includes a pre-defined set of
@@ -21,7 +21,7 @@ PHP 5.6.0 and later.
 You can install the bindings via [Composer](http://getcomposer.org/). Run the following command:
 
 ```bash
-composer require Paayes/Paayes-php
+composer require paayes/paayes-php
 ```
 
 To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
@@ -32,7 +32,7 @@ require_once('vendor/autoload.php');
 
 ## Manual Installation
 
-If you do not wish to use Composer, you can download the [latest release](https://github.com/Paayes/Paayes-php/releases). Then, to use the bindings, include the `init.php` file.
+If you do not wish to use Composer, you can download the [latest release](https://github.com/paayes/paayes-php/releases). Then, to use the bindings, include the `init.php` file.
 
 ```php
 require_once('/path/to/Paayes-php/init.php');
@@ -64,7 +64,7 @@ echo $customer;
 
 ### Client/service patterns vs legacy patterns
 
-You can continue to use the legacy integration patterns used prior to version [7.33.0](https://github.com/Paayes/Paayes-php/blob/master/CHANGELOG.md#7330---2020-05-14). Review the [migration guide](https://github.com/Paayes/Paayes-php/wiki/Migration-to-PaayesClient-and-services-in-7.33.0) for the backwards-compatible client/services pattern changes.
+You can continue to use the legacy integration patterns used prior to version [7.33.0](https://github.com/paayes/paayes-php/blob/master/CHANGELOG.md#7330---2020-05-14). Review the [migration guide](https://github.com/paayes/paayes-php/wiki/Migration-to-PaayesClient-and-services-in-7.33.0) for the backwards-compatible client/services pattern changes.
 
 ## Documentation
 
@@ -77,12 +77,12 @@ See [video demonstrations][youtube-playlist] covering how to use the library.
 ### PHP 5.4 & 5.5
 
 If you are using PHP 5.4 or 5.5, you should consider upgrading your environment as those versions have been past end of life since September 2015 and July 2016 respectively.
-Otherwise, you can still use Paayes by downloading Paayes-php v6.43.1 ([zip](https://github.com/Paayes/Paayes-php/archive/v6.43.1.zip), [tar.gz](https://github.com/Paayes/Paayes-php/archive/6.43.1.tar.gz)) from our [releases page](https://github.com/Paayes/Paayes-php/releases). This version will work but might not support recent features we added since the version was released and upgrading PHP is the best course of action.
+Otherwise, you can still use Paayes by downloading Paayes-php v6.43.1 ([zip](https://github.com/paayes/paayes-php/archive/v6.43.1.zip), [tar.gz](https://github.com/paayes/paayes-php/archive/6.43.1.tar.gz)) from our [releases page](https://github.com/paayes/paayes-php/releases). This version will work but might not support recent features we added since the version was released and upgrading PHP is the best course of action.
 
 ### PHP 5.3
 
 If you are using PHP 5.3, you should upgrade your environment as this version has been past end of life since August 2014.
-Otherwise, you can download v5.9.2 ([zip](https://github.com/Paayes/Paayes-php/archive/v5.9.2.zip), [tar.gz](https://github.com/Paayes/Paayes-php/archive/v5.9.2.tar.gz)) from our [releases page](https://github.com/Paayes/Paayes-php/releases). This version will continue to work with new versions of the Paayes API for all common uses.
+Otherwise, you can download v5.9.2 ([zip](https://github.com/paayes/paayes-php/archive/v5.9.2.zip), [tar.gz](https://github.com/paayes/paayes-php/archive/v5.9.2.tar.gz)) from our [releases page](https://github.com/paayes/paayes-php/releases). This version will continue to work with new versions of the Paayes API for all common uses.
 
 ## Custom Request Timeouts
 
